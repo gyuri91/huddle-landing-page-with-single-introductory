@@ -1,0 +1,37 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    padding: 80px;
+    width: 800px;
+    max-width: 100%;
+}
+
+.flex {
+    display: flex;
+    padding-top: 40px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.image-content {
+    flex: 1;
+}
+
+.text-content {
+    flex: 1;
+}
